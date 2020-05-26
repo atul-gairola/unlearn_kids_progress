@@ -1,0 +1,117 @@
+/*------------- GENERAL ------------*/
+  body {
+    font-family: 'Work Sans', sans-serif;
+    background: #fff;
+    padding: 30px;
+  }
+
+  button:focus {
+    outline: 0;
+  }
+
+/*------------- TITLE BAR ------------*/
+nav{
+  margin-bottom: 40px;
+}
+.navbar-brand{
+  font-weight: 600;
+font-size: 36px;
+}
+.navbar-light .navbar-brand {
+  color: #B4B4BD;
+}
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  color: #B4B4BD;
+}
+
+/*------------- SEARCH FORM ------------*/
+form{
+position:absolute;
+top: 80px;
+right: 30px;
+}
+.form-control{
+  height: 44px;
+  width:350px !important;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #B4B4BD;
+  border-width: 1px 0 1px 1px;
+  margin: 0 !important;
+  background: #FAFAFB;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #B4B4BD;
+  outline: 0;
+  box-shadow: none;
+}
+.form-control::placeholder{
+font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 14px;
+color: #B4B4BD;
+}
+.btn{
+  border-radius: 0;
+  transition: none;
+  width:40px;
+  height: 44px;
+ border: 1px solid #B4B4BD;
+ border-radius: 0 4px 4px 0;
+ border-width: 1px 1px 1px 0;
+ margin: 0 !important;
+ padding: 5px;
+ background: #FAFAFB;
+}
+.btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+/*------------- TABLE ------------*/
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #fff ;
+}
+.table-striped tbody tr:nth-of-type(even) {
+  background: #FAFAFB;
+}
+thead{
+  background: #F1F1F5;
+}
+thead th{
+  height:82px;
+  vertical-align: top !important;
+  font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+border: 0 !important;
+}
+table th:first-child{
+  border-radius:6px 0 0 6px;
+}
+
+table th:last-child{
+  border-radius:0 6px 6px 0;
+}
+tr td:first-child{
+  border-radius:6px 0 0 6px;
+}
+
+tr td:last-child{
+  border-radius:0 6px 6px 0;
+}
+td{
+  border: none !important;
+}
+.action{
+  text-align: center;
+}
+.action svg:hover{
+cursor: pointer;
+transform: scale(1.1);
+}
+
+/*
+ */
