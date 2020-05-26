@@ -113,5 +113,34 @@ cursor: pointer;
 transform: scale(1.1);
 }
 
-/*
- */
+/*------------- PAGINATION ------------*/
+.pagination{
+  margin-top: 30px;
+}
+.page-link{
+  font-style: normal;
+font-weight: normal;
+font-size: 17px;
+color: #696974;
+border: none;
+border-radius: 6px;
+padding: 0.6rem 1rem;
+
+}
+.active .page-link{
+  font-weight: 700 ;
+}
+.page-item:first-child .page-link {
+  margin-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.page-item:last-child .page-link {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+#right-arrow{
+  transform: rotate(180deg);
+}
